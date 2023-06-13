@@ -15,7 +15,7 @@ pip install mechanize
 pip install bs4
 pip install future
 rm -rf Larvel
-git clone https://github.com/BABASEc1/Larvel.git
+git clone https://github.com/BABASEc1/Proxy.git
 cd Proxy
 git pull 
 python main.py
