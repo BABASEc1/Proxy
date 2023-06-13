@@ -1,15 +1,21 @@
 # Proxy
 
-#installlon
-...
+# Installation 
+
+```  
+[+] PLATFORM 32BIT + 64BIT
+
+termux-setup-storage
 pkg update -y
 pkg upgrade -y
-pip2 install requests
 pkg install git -y
-pkg install python
-pkg install python2
-pip2 install mechanize
-pip2 install bs4
-git clone https://github.com/BABASEc1/Proxy.git
-cd Proxy 
+pkg install python -y
+pip install requests
+pip install mechanize
+pip install bs4
+pip install future
+rm -rf Larvel
+git clone https://github.com/BABASEc1/Larvel.git
+cd Proxy
+git pull 
 python main.py
